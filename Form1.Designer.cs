@@ -31,17 +31,17 @@
             this.btnExport = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtDBConnExport = new System.Windows.Forms.TextBox();
-            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.txtDBExport = new System.Windows.Forms.TextBox();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.txtExportLocation = new System.Windows.Forms.TextBox();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.txtImportLocation = new System.Windows.Forms.TextBox();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.txtDatabaseImport = new System.Windows.Forms.TextBox();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.txtDBConImport = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnExport
@@ -72,36 +72,12 @@
             this.txtDBConnExport.TabIndex = 0;
             this.txtDBConnExport.Text = "mongodb://localhost:27017";
             // 
-            // labelControl1
-            // 
-            this.labelControl1.Location = new System.Drawing.Point(32, 62);
-            this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(158, 16);
-            this.labelControl1.TabIndex = 3;
-            this.labelControl1.Text = "Database Connection String";
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Location = new System.Drawing.Point(32, 99);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(53, 16);
-            this.labelControl2.TabIndex = 5;
-            this.labelControl2.Text = "Database";
-            // 
             // txtDBExport
             // 
             this.txtDBExport.Location = new System.Drawing.Point(205, 96);
             this.txtDBExport.Name = "txtDBExport";
             this.txtDBExport.Size = new System.Drawing.Size(492, 22);
             this.txtDBExport.TabIndex = 1;
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Location = new System.Drawing.Point(32, 141);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(87, 16);
-            this.labelControl3.TabIndex = 7;
-            this.labelControl3.Text = "Export Location";
             // 
             // txtExportLocation
             // 
@@ -110,14 +86,6 @@
             this.txtExportLocation.Size = new System.Drawing.Size(492, 22);
             this.txtExportLocation.TabIndex = 2;
             // 
-            // labelControl4
-            // 
-            this.labelControl4.Location = new System.Drawing.Point(32, 456);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(89, 16);
-            this.labelControl4.TabIndex = 13;
-            this.labelControl4.Text = "Import Location";
-            // 
             // txtImportLocation
             // 
             this.txtImportLocation.Location = new System.Drawing.Point(205, 453);
@@ -125,28 +93,12 @@
             this.txtImportLocation.Size = new System.Drawing.Size(492, 22);
             this.txtImportLocation.TabIndex = 6;
             // 
-            // labelControl5
-            // 
-            this.labelControl5.Location = new System.Drawing.Point(32, 414);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(53, 16);
-            this.labelControl5.TabIndex = 11;
-            this.labelControl5.Text = "Database";
-            // 
             // txtDatabaseImport
             // 
             this.txtDatabaseImport.Location = new System.Drawing.Point(205, 411);
             this.txtDatabaseImport.Name = "txtDatabaseImport";
             this.txtDatabaseImport.Size = new System.Drawing.Size(492, 22);
             this.txtDatabaseImport.TabIndex = 5;
-            // 
-            // labelControl6
-            // 
-            this.labelControl6.Location = new System.Drawing.Point(32, 377);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(158, 16);
-            this.labelControl6.TabIndex = 9;
-            this.labelControl6.Text = "Database Connection String";
             // 
             // txtDBConImport
             // 
@@ -156,22 +108,76 @@
             this.txtDBConImport.TabIndex = 4;
             this.txtDBConImport.Text = "mongodb://localhost:27017";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(29, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(174, 16);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Database Connection String";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(29, 99);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Database";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 141);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 16);
+            this.label3.TabIndex = 16;
+            this.label3.Text = "Export Location";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(29, 459);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 16);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Import Location";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(29, 414);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 16);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Database";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(29, 377);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(174, 16);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Database Connection String";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(905, 707);
-            this.Controls.Add(this.labelControl4);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtImportLocation);
-            this.Controls.Add(this.labelControl5);
             this.Controls.Add(this.txtDatabaseImport);
-            this.Controls.Add(this.labelControl6);
             this.Controls.Add(this.txtDBConImport);
-            this.Controls.Add(this.labelControl3);
             this.Controls.Add(this.txtExportLocation);
-            this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.txtDBExport);
-            this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.txtDBConnExport);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExport);
@@ -188,17 +194,17 @@
         private System.Windows.Forms.Button btnExport;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtDBConnExport;
-        private DevExpress.XtraEditors.LabelControl labelControl1;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
         private System.Windows.Forms.TextBox txtDBExport;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
         private System.Windows.Forms.TextBox txtExportLocation;
-        private DevExpress.XtraEditors.LabelControl labelControl4;
         private System.Windows.Forms.TextBox txtImportLocation;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
         private System.Windows.Forms.TextBox txtDatabaseImport;
-        private DevExpress.XtraEditors.LabelControl labelControl6;
         private System.Windows.Forms.TextBox txtDBConImport;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
